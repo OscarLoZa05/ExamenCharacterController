@@ -262,13 +262,13 @@ MonoBehaviour:
   Orbits:
     Top:
       Radius: 3.83
-      Height: 6.3
+      Height: 5.42
     Center:
       Radius: 4
-      Height: 2.25
+      Height: 2.44
     Bottom:
       Radius: 2.5
-      Height: 0.1
+      Height: 0.04
     SplineCurvature: 0.5
   RecenteringTarget: 2
   HorizontalAxis:
@@ -352,8 +352,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185680418}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04400395, y: -0.0000000119064065, z: 5.2443666e-10, w: 0.99903136}
-  m_LocalPosition: {x: 0, y: 2.82, z: 0.73}
+  m_LocalRotation: {x: 0.056996223, y: 0.0000000014740728, z: -8.415344e-11, w: 0.9983744}
+  m_LocalPosition: {x: 0, y: 3.01, z: 0.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -808,13 +808,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.044003945, y: -0.000000011906405, z: 5.244368e-10, w: 0.99903136}
-  m_LocalPosition: {x: 0, y: 2.82, z: 0.73}
+  m_LocalRotation: {x: 0.056996226, y: 0.0000000014740729, z: -8.415339e-11, w: 0.9983744}
+  m_LocalPosition: {x: 0, y: 3.01, z: 0.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 13.744, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.044, y: 0.03, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -65,8 +65,9 @@ public class PlayerController : MonoBehaviour
 
         if(direction != Vector3.zero)
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg * smooth;
-            Quaternion.Euler(0, cameraDirection.y * targetAngle, 0);
+            //float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg ;
+            //Quaternion.Euler(0, cameraDirection.y * targetAngle, 0);
+            transform.rotation = Quaternion.Euler(0, cameraMain.eulerAngles.y, 0);
             _controller.Move(cameraDirection * _moveSpeed * Time.deltaTime);
         }    
     }
